@@ -17,3 +17,11 @@ body {
 .recipe-name {
     text-align: center;
 }
+
+.recipe-card {
+    padding: 40px;
+}
+
+.recipe-card > img {
+    width: 300px;
+}

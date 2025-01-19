@@ -44,6 +44,14 @@ body {
     font-size: 44px;
 }
 
+.recipe-card > h2 {
+    text-align: center;
+    color: palevioletred;
+    text-decoration: overline underline;
+    text-decoration-color: pink;
+    text-decoration-style: dotted;
+}
+
 .recipe-card > img {
     width: 300px;
     margin: auto;

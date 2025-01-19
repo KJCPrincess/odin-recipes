@@ -4,4 +4,16 @@ body {
 
 #title {
     text-align: center;
+    color: darkviolet;
+    font-size: 55px;
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+}
+
+#index-list {
+    list-style: none;
+}
+
+.recipe-name {
+    text-align: center;
 }

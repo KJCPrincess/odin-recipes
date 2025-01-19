@@ -57,3 +57,7 @@ body {
     margin: auto;
     display: block;
 }
+
+.recipe-card > p {
+    font-family: sans-serif;
+}

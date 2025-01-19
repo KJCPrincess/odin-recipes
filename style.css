@@ -6,7 +6,6 @@ body {
     text-align: center;
     color: darkviolet;
     font-size: 55px;
-    font-family: sans-serif;
     background-color: blanchedalmond;
 }
 
@@ -37,6 +36,12 @@ body {
 .recipe-card {
     padding: 40px;
     background-color: beige;
+}
+
+.recipe-card > h1 {
+    color: sienna;
+    padding-bottom: 20px;
+    font-size: 44px;
 }
 
 .recipe-card > img {

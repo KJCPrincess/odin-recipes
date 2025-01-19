@@ -11,7 +11,23 @@ body {
 }
 
 #index-list {
-    list-style: none;
+    list-style-type: square;
+    margin-left: 55px;
+    line-height: 1.5;
+    color: darkred;
+    font-size: 30px;
+}
+
+.recipe-link {
+    font-size: 30px;
+}
+
+.recipe-link a {
+    color:aliceblue;
+}
+
+.recipe-link a:hover {
+    color:rgb(255, 255, 222);
 }
 
 .recipe-name {

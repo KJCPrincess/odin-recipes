@@ -20,6 +20,7 @@ body {
 
 .recipe-card {
     padding: 40px;
+    background-color: beige;
 }
 
 .recipe-card > img {

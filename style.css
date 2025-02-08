@@ -1,5 +1,9 @@
+* {
+    margin: 0;
+}
+
 body {
-    background-color: pink;
+    background-color: blanchedalmond;
 }
 
 #title {
@@ -7,14 +11,21 @@ body {
     color: darkviolet;
     font-size: 55px;
     background-color: blanchedalmond;
+    padding-top: 20px;
+    margin-bottom: 40px;
 }
 
-#index-list {
+.recipe-list {
+    display: block;
+    margin: auto;
+    padding: 10px 15px 10px 20px;
+    width: 50%;
     list-style-type: square;
-    margin-left: 55px;
     line-height: 1.5;
     color: darkred;
     font-size: 30px;
+    background-color: pink;
+    border: 4px double powderblue;
 }
 
 .recipe-link {
@@ -31,25 +42,28 @@ body {
 
 .recipe-name {
     text-align: center;
-}
-
-.recipe-card {
-    padding: 40px;
-    background-color: beige;
-}
-
-.recipe-card > h1 {
     color: sienna;
     padding-bottom: 20px;
     font-size: 44px;
 }
 
-.recipe-card > h2 {
+.recipe-card {
+    width: 75%;
+    margin: 20px auto;
+    background-color: beige;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.section {
+    margin: 30px 30px 0px;
+}
+
+h2 {
     text-align: center;
+    border: 5px dotted pink;
     color: palevioletred;
-    text-decoration: overline underline;
-    text-decoration-color: pink;
-    text-decoration-style: dotted;
+    margin-bottom: 15px;
 }
 
 .recipe-card > img {

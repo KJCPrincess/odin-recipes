@@ -93,6 +93,10 @@ margin: 20px auto;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.home:hover {
+    background-color: pink;
+}
+
 .home > a {
     text-decoration: none;
 }

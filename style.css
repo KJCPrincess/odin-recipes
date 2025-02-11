@@ -68,6 +68,10 @@ h2 {
 
 .recipe-card > img {
     width: 50%;
+    padding: 8px;
+    border: 5px dashed gray;
+    background-color: white;
+    border-radius: 8px;
     margin: auto;
     display: block;
 }
